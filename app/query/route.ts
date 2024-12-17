@@ -16,7 +16,7 @@
 export async function GET() {
   return Response.json({
     message:
-      'Uncomment this file and remove this line. You can delete this file when you are finished.',
+      'Test already done. Im leaving this file for future reference.',
   });
   // try {
   // 	return Response.json(await listInvoices());
