@@ -1,5 +1,7 @@
 
 import SideNav from "@/app/ui/dashboard/sidenav";
+//not using partial prerendering because I am using the wrong version of nextjs
+//export const experimental_ppr = true;
 
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (
